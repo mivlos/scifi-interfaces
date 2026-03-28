@@ -22,6 +22,12 @@ body {
   background-color: var(--color-navy);
   color: #e0e0e0;
   overflow-x: hidden;
+  animation: pageFadeIn 0.2s ease-out;
+}
+
+@keyframes pageFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 h1, h2, h3, h4 {

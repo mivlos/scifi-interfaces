@@ -261,6 +261,9 @@ export default function Canon() {
                   <YouTubeEmbed
                     videoId={film.youtubeId}
                     title={film.youtubeTitle}
+                    filmTitle={film.title}
+                    year={film.year}
+                    concept={film.concept}
                   />
                 </AnimatedSection>
               </div>
